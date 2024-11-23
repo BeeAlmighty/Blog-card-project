@@ -58,8 +58,8 @@ Users should be able to:
 - [W3 schools](https://www.w3schools.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/beeAlmighty)
-- Twitter - [@yourusername](https://www.twitter.com/Maduakonam67451)
+- Frontend Mentor - [BeeAlmighty](https://www.frontendmentor.io/profile/beeAlmighty)
+- Twitter - [Moses Maduakonam](https://www.twitter.com/Maduakonam67451)
 
 
 ## Acknowledgments
