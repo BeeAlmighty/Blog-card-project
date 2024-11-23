@@ -1,0 +1,93 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+.container {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 22px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 2px black;
+  background-color: hsl(0, 0%, 100%);
+}
+.img img {
+  width: 100%;
+  border-radius: 10px;
+}
+h4 {
+  background-color: hsl(47, 88%, 63%);
+  margin: 15px 0;
+  width: 70px;
+  padding: 8px;
+  text-align: center;
+  border-radius: 5px;
+}
+.date {
+  color: hsl(0, 0%, 7%);
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+h3 {
+  margin: 15px 0;
+  font-weight: 800;
+  font-size: 25px;
+}
+p{
+  margin: 0 0 20px 0;
+  color: hsl(0, 0%, 42%);
+  font-size: 16px;
+  line-height: 25px;
+}
+.author {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.author img {
+  width: 30px;
+}
+.author span {
+  font-weight: 800;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 375px){
+  .container {
+    width: 285px;
+  }
+  h4 {
+    font-size: 14px;
+    padding: 6px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  p{
+    font-size: 14.5px;
+    font-weight: 500;
+  }
+  .author {
+    gap: 15px;
+  }
+  .author img {
+    width: 40px;
+  }
+  .author span {
+    font-size: 16px;
+  }
+
+}
